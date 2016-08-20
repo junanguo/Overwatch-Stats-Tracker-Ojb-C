@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F53C1DB1D681B8200CEDE88 /* w_Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F53C1D61D681B8200CEDE88 /* w_Constant.m */; };
+		6F53C1DC1D681B8200CEDE88 /* WatcherHeroStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F53C1D81D681B8200CEDE88 /* WatcherHeroStats.m */; };
+		6F53C1DD1D681B8200CEDE88 /* WatcherPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F53C1DA1D681B8200CEDE88 /* WatcherPlayer.m */; };
+		6F53C1E01D681B8C00CEDE88 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6F53C1DE1D681B8C00CEDE88 /* LICENSE */; };
+		6F53C1E11D681B8C00CEDE88 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6F53C1DF1D681B8C00CEDE88 /* README.md */; };
+		6F622C641D65A55F007D6DA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F622C631D65A55F007D6DA5 /* main.m */; };
+		6F622C671D65A55F007D6DA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F622C661D65A55F007D6DA5 /* AppDelegate.m */; };
+		6F622C6A1D65A55F007D6DA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F622C691D65A55F007D6DA5 /* ViewController.m */; };
+		6F622C6D1D65A55F007D6DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F622C6B1D65A55F007D6DA5 /* Main.storyboard */; };
+		6F622C6F1D65A55F007D6DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F622C6E1D65A55F007D6DA5 /* Assets.xcassets */; };
+		6F622C721D65A55F007D6DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F622C701D65A55F007D6DA5 /* LaunchScreen.storyboard */; };
+		6F622C7D1D65A560007D6DA5 /* Overwatcher_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F622C7C1D65A560007D6DA5 /* Overwatcher_APITests.m */; };
+		6F622C881D65A560007D6DA5 /* Overwatcher_APIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F622C871D65A560007D6DA5 /* Overwatcher_APIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F622C791D65A560007D6DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F622C571D65A55F007D6DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F622C5E1D65A55F007D6DA5;
+			remoteInfo = Overwatcher_API;
+		};
+		6F622C841D65A560007D6DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F622C571D65A55F007D6DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F622C5E1D65A55F007D6DA5;
+			remoteInfo = Overwatcher_API;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F53C1D41D681B8200CEDE88 /* Overwatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Overwatcher.h; sourceTree = "<group>"; };
+		6F53C1D51D681B8200CEDE88 /* w_Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = w_Constant.h; sourceTree = "<group>"; };
+		6F53C1D61D681B8200CEDE88 /* w_Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = w_Constant.m; sourceTree = "<group>"; };
+		6F53C1D71D681B8200CEDE88 /* WatcherHeroStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatcherHeroStats.h; sourceTree = "<group>"; };
+		6F53C1D81D681B8200CEDE88 /* WatcherHeroStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatcherHeroStats.m; sourceTree = "<group>"; };
+		6F53C1D91D681B8200CEDE88 /* WatcherPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatcherPlayer.h; sourceTree = "<group>"; };
+		6F53C1DA1D681B8200CEDE88 /* WatcherPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatcherPlayer.m; sourceTree = "<group>"; };
+		6F53C1DE1D681B8C00CEDE88 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = Overwatcher_API/LICENSE; sourceTree = "<group>"; };
+		6F53C1DF1D681B8C00CEDE88 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Overwatcher_API/README.md; sourceTree = "<group>"; };
+		6F622C5F1D65A55F007D6DA5 /* Overwatcher_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overwatcher_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F622C631D65A55F007D6DA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F622C651D65A55F007D6DA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F622C661D65A55F007D6DA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F622C681D65A55F007D6DA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F622C691D65A55F007D6DA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F622C6C1D65A55F007D6DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F622C6E1D65A55F007D6DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F622C711D65A55F007D6DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F622C731D65A55F007D6DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F622C781D65A560007D6DA5 /* Overwatcher_APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Overwatcher_APITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F622C7C1D65A560007D6DA5 /* Overwatcher_APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overwatcher_APITests.m; sourceTree = "<group>"; };
+		6F622C7E1D65A560007D6DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F622C831D65A560007D6DA5 /* Overwatcher_APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Overwatcher_APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F622C871D65A560007D6DA5 /* Overwatcher_APIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Overwatcher_APIUITests.m; sourceTree = "<group>"; };
+		6F622C891D65A560007D6DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F622C5C1D65A55F007D6DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F622C751D65A560007D6DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F622C801D65A560007D6DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F53C1D31D681B8200CEDE88 /* Overwatcher_API_Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F53C1D41D681B8200CEDE88 /* Overwatcher.h */,
+				6F53C1D51D681B8200CEDE88 /* w_Constant.h */,
+				6F53C1D61D681B8200CEDE88 /* w_Constant.m */,
+				6F53C1D71D681B8200CEDE88 /* WatcherHeroStats.h */,
+				6F53C1D81D681B8200CEDE88 /* WatcherHeroStats.m */,
+				6F53C1D91D681B8200CEDE88 /* WatcherPlayer.h */,
+				6F53C1DA1D681B8200CEDE88 /* WatcherPlayer.m */,
+			);
+			path = Overwatcher_API_Classes;
+			sourceTree = "<group>";
+		};
+		6F622C561D65A55F007D6DA5 = {
+			isa = PBXGroup;
+			children = (
+				6F53C1DE1D681B8C00CEDE88 /* LICENSE */,
+				6F53C1DF1D681B8C00CEDE88 /* README.md */,
+				6F622C611D65A55F007D6DA5 /* Overwatcher_API */,
+				6F622C7B1D65A560007D6DA5 /* Overwatcher_APITests */,
+				6F622C861D65A560007D6DA5 /* Overwatcher_APIUITests */,
+				6F622C601D65A55F007D6DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F622C601D65A55F007D6DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F622C5F1D65A55F007D6DA5 /* Overwatcher_API.app */,
+				6F622C781D65A560007D6DA5 /* Overwatcher_APITests.xctest */,
+				6F622C831D65A560007D6DA5 /* Overwatcher_APIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F622C611D65A55F007D6DA5 /* Overwatcher_API */ = {
+			isa = PBXGroup;
+			children = (
+				6F53C1D31D681B8200CEDE88 /* Overwatcher_API_Classes */,
+				6F622C651D65A55F007D6DA5 /* AppDelegate.h */,
+				6F622C661D65A55F007D6DA5 /* AppDelegate.m */,
+				6F622C681D65A55F007D6DA5 /* ViewController.h */,
+				6F622C691D65A55F007D6DA5 /* ViewController.m */,
+				6F622C6B1D65A55F007D6DA5 /* Main.storyboard */,
+				6F622C6E1D65A55F007D6DA5 /* Assets.xcassets */,
+				6F622C701D65A55F007D6DA5 /* LaunchScreen.storyboard */,
+				6F622C731D65A55F007D6DA5 /* Info.plist */,
+				6F622C621D65A55F007D6DA5 /* Supporting Files */,
+			);
+			path = Overwatcher_API;
+			sourceTree = "<group>";
+		};
+		6F622C621D65A55F007D6DA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F622C631D65A55F007D6DA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F622C7B1D65A560007D6DA5 /* Overwatcher_APITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F622C7C1D65A560007D6DA5 /* Overwatcher_APITests.m */,
+				6F622C7E1D65A560007D6DA5 /* Info.plist */,
+			);
+			path = Overwatcher_APITests;
+			sourceTree = "<group>";
+		};
+		6F622C861D65A560007D6DA5 /* Overwatcher_APIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F622C871D65A560007D6DA5 /* Overwatcher_APIUITests.m */,
+				6F622C891D65A560007D6DA5 /* Info.plist */,
+			);
+			path = Overwatcher_APIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F622C5E1D65A55F007D6DA5 /* Overwatcher_API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F622C8C1D65A560007D6DA5 /* Build configuration list for PBXNativeTarget "Overwatcher_API" */;
+			buildPhases = (
+				6F622C5B1D65A55F007D6DA5 /* Sources */,
+				6F622C5C1D65A55F007D6DA5 /* Frameworks */,
+				6F622C5D1D65A55F007D6DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Overwatcher_API;
+			productName = Overwatcher_API;
+			productReference = 6F622C5F1D65A55F007D6DA5 /* Overwatcher_API.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F622C771D65A560007D6DA5 /* Overwatcher_APITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F622C8F1D65A560007D6DA5 /* Build configuration list for PBXNativeTarget "Overwatcher_APITests" */;
+			buildPhases = (
+				6F622C741D65A560007D6DA5 /* Sources */,
+				6F622C751D65A560007D6DA5 /* Frameworks */,
+				6F622C761D65A560007D6DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F622C7A1D65A560007D6DA5 /* PBXTargetDependency */,
+			);
+			name = Overwatcher_APITests;
+			productName = Overwatcher_APITests;
+			productReference = 6F622C781D65A560007D6DA5 /* Overwatcher_APITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F622C821D65A560007D6DA5 /* Overwatcher_APIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F622C921D65A560007D6DA5 /* Build configuration list for PBXNativeTarget "Overwatcher_APIUITests" */;
+			buildPhases = (
+				6F622C7F1D65A560007D6DA5 /* Sources */,
+				6F622C801D65A560007D6DA5 /* Frameworks */,
+				6F622C811D65A560007D6DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F622C851D65A560007D6DA5 /* PBXTargetDependency */,
+			);
+			name = Overwatcher_APIUITests;
+			productName = Overwatcher_APIUITests;
+			productReference = 6F622C831D65A560007D6DA5 /* Overwatcher_APIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F622C571D65A55F007D6DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Junan Guo";
+				TargetAttributes = {
+					6F622C5E1D65A55F007D6DA5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6F622C771D65A560007D6DA5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F622C5E1D65A55F007D6DA5;
+					};
+					6F622C821D65A560007D6DA5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F622C5E1D65A55F007D6DA5;
+					};
+				};
+			};
+			buildConfigurationList = 6F622C5A1D65A55F007D6DA5 /* Build configuration list for PBXProject "Overwatcher_API" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F622C561D65A55F007D6DA5;
+			productRefGroup = 6F622C601D65A55F007D6DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F622C5E1D65A55F007D6DA5 /* Overwatcher_API */,
+				6F622C771D65A560007D6DA5 /* Overwatcher_APITests */,
+				6F622C821D65A560007D6DA5 /* Overwatcher_APIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F622C5D1D65A55F007D6DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F622C721D65A55F007D6DA5 /* LaunchScreen.storyboard in Resources */,
+				6F622C6F1D65A55F007D6DA5 /* Assets.xcassets in Resources */,
+				6F53C1E01D681B8C00CEDE88 /* LICENSE in Resources */,
+				6F622C6D1D65A55F007D6DA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F622C761D65A560007D6DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F622C811D65A560007D6DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F622C5B1D65A55F007D6DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F622C6A1D65A55F007D6DA5 /* ViewController.m in Sources */,
+				6F622C671D65A55F007D6DA5 /* AppDelegate.m in Sources */,
+				6F622C641D65A55F007D6DA5 /* main.m in Sources */,
+				6F53C1E11D681B8C00CEDE88 /* README.md in Sources */,
+				6F53C1DB1D681B8200CEDE88 /* w_Constant.m in Sources */,
+				6F53C1DC1D681B8200CEDE88 /* WatcherHeroStats.m in Sources */,
+				6F53C1DD1D681B8200CEDE88 /* WatcherPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F622C741D65A560007D6DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F622C7D1D65A560007D6DA5 /* Overwatcher_APITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F622C7F1D65A560007D6DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F622C881D65A560007D6DA5 /* Overwatcher_APIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F622C7A1D65A560007D6DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F622C5E1D65A55F007D6DA5 /* Overwatcher_API */;
+			targetProxy = 6F622C791D65A560007D6DA5 /* PBXContainerItemProxy */;
+		};
+		6F622C851D65A560007D6DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F622C5E1D65A55F007D6DA5 /* Overwatcher_API */;
+			targetProxy = 6F622C841D65A560007D6DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F622C6B1D65A55F007D6DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F622C6C1D65A55F007D6DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F622C701D65A55F007D6DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F622C711D65A55F007D6DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F622C8A1D65A560007D6DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F622C8B1D65A560007D6DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F622C8D1D65A560007D6DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Overwatcher_API/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Junan.Overwatcher-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F622C8E1D65A560007D6DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Overwatcher_API/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Junan.Overwatcher-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F622C901D65A560007D6DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Overwatcher_APITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Junan.Overwatcher-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overwatcher_API.app/Overwatcher_API";
+			};
+			name = Debug;
+		};
+		6F622C911D65A560007D6DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Overwatcher_APITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Junan.Overwatcher-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overwatcher_API.app/Overwatcher_API";
+			};
+			name = Release;
+		};
+		6F622C931D65A560007D6DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Overwatcher_APIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Junan.Overwatcher-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Overwatcher_API;
+			};
+			name = Debug;
+		};
+		6F622C941D65A560007D6DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Overwatcher_APIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Junan.Overwatcher-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Overwatcher_API;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F622C5A1D65A55F007D6DA5 /* Build configuration list for PBXProject "Overwatcher_API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F622C8A1D65A560007D6DA5 /* Debug */,
+				6F622C8B1D65A560007D6DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F622C8C1D65A560007D6DA5 /* Build configuration list for PBXNativeTarget "Overwatcher_API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F622C8D1D65A560007D6DA5 /* Debug */,
+				6F622C8E1D65A560007D6DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F622C8F1D65A560007D6DA5 /* Build configuration list for PBXNativeTarget "Overwatcher_APITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F622C901D65A560007D6DA5 /* Debug */,
+				6F622C911D65A560007D6DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F622C921D65A560007D6DA5 /* Build configuration list for PBXNativeTarget "Overwatcher_APIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F622C931D65A560007D6DA5 /* Debug */,
+				6F622C941D65A560007D6DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F622C571D65A55F007D6DA5 /* Project object */;
+}
